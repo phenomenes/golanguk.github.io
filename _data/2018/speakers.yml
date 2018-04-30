@@ -361,7 +361,7 @@
             company: Manifold
             photo: https://secure.gravatar.com/avatar/3f4444967dfc7a5a2a71d24175d94c3c?s=500
             bio:  |
-                Jelmer Snoeck is a Product Engineer for at Manifold. In the past, he's helped scale startups where he's mostly been working as an SRE. Jelmer is mainly a backend developer with a focus on reliability and performance. More recently, he's been focussing on extending Kubernetes. Whenever he can, Jelmer tries to help others learn and experiment with new software.
+                Jelmer Snoeck is a Product Engineer at Manifold. In the past, he's helped scale startups where he's mostly been working as an SRE. Jelmer is mainly a backend developer with a focus on reliability and performance. More recently, he's been focussing on extending Kubernetes. Whenever he can, Jelmer tries to help others learn and experiment with new software.
             level: All
             description: |
                 Refactoring is essential to the software lifecycle. Can we make it safe enough to be a part of every company's CD workflow? In this talk attendees will learn how to: utilise multi-step deploys; tame feature flags; run multiple code paths concurrently in production without influencing users.
