@@ -96,4 +96,12 @@
       imageType: png
       url: https://www.trisoft.ro
       about: "We are TRISOFT. We build rock-solid software using Go. We provide highly efficient teams, including Golang architects, developers and more."
+- type: Scholarship
+  sponsors:
+    - name: "ARM"
+      slug: arm
+      imageType: png
+      url: https://www.arm.com/
+      about:
+        "We Make Smart Possible. We Are the Architects of Tomorrow.<br><br>Arm defines the pervasive computing shaping today’s connected world. Realized in 100 billion silicon chips, our device architectures orchestrate the performance of the technology transforming our lives — from smartphones to supercomputers, from medical instruments to agricultural sensors, and from base stations to servers."
 
