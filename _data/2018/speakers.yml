@@ -164,43 +164,6 @@
       tracks:
         - track:
             location: Red Hat OpenShift Track
-            title: Building future proof systems with interfaces
-            slug: asimaslam
-            speaker: Asim Aslam
-            handle: chuhnk
-            company: Micro
-            photo: https://secure.gravatar.com/avatar/e92cbcec738176ba1dc51805ba5be8d1?s=500
-            bio:  |
-                Asim is a technologist with over a decade of experience in building distributed systems. His primary focus today is working on the open source project Micro, a toolkit for simplifying cloud-native development.
-            level: Intermediate
-            description: |
-                How do we build applications which evolve with technology? Too often we become dependent on specific infrastructure, requiring large scale rewrites to replace them later. This talk will demonstrate how to use the power of Go interfaces to avoid this problem and build future proof systems.
-        - track:
-            location: Glint Pay Track
-            title: "go-ns - Go's role in publishing data at the Office for National Statistics"
-            slug: eleanordeal
-            speaker: Eleanor Deal
-            handle: unoxymoronic
-            company: Methods
-            photo: https://secure.gravatar.com/avatar/61eccacafa0360478f69110292c438cf?s=500
-            bio:  |
-                Founder of the Cardiff Go meetup, and now Consulting as a Tech Lead at ONS, Eleanor represents Methods within the Welsh digital world. Eleanor manages teams working towards digital transformation in public services (and occasionally still gets to write some code!). In her spare time, Eleanor loves to take pictures of architecture around the world, and definitely not just her two cats.
-            level: All
-            description: |
-                ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
-        - track:
-            location: Smeaton Vaults
-            title: Special Event - TBA
-    - time: "13.45"
-      slottype: break change
-      tracks:
-        - track:
-              title: Room change
-    - time: "14.00"
-      slottype: talks
-      tracks:
-        - track:
-            location: Red Hat OpenShift Track
             title: Orchestration of microservices
             slug: berndrucker
             speaker: Bernd Rücker
@@ -228,15 +191,12 @@
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
-    - time: "14.45"
-      slottype: break
+    - time: "13.45"
+      slottype: break change
       tracks:
         - track:
-              location: King George
-              title: Refreshment break
-              description: |
-                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-    - time: "15.15"
+              title: Room change
+    - time: "14.00"
       slottype: talks
       tracks:
         - track:
@@ -266,12 +226,15 @@
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
-    - time: "16.00"
-      slottype: break change
+    - time: "14.45"
+      slottype: break
       tracks:
         - track:
-              title: Room change
-    - time: "16:15"
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "15.15"
       slottype: talks
       tracks:
         - track:
@@ -299,6 +262,29 @@
             level: All
             description: |
                 DeepMind is a British artificial intelligence research company, dedicated to using that research to help address the toughest social challenges. In this talk, we’ll cover our working in healthcare, and how we use Go to power Streams, our mobile application used by NHS clinicians.
+        - track:
+            location: Smeaton Vaults
+            title: Special Event - TBA
+    - time: "16.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "16:15"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: TBA
+            slug: 
+            speaker: 
+            handle: 
+            photo:
+            bio:  |
+                
+            level: 
+            description: |
+                
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
@@ -383,22 +369,22 @@
       tracks:
         - track:
               title: Room change
-    - time: "11:15"
+    - time: "11.15"
       slottype: talks
       tracks:
         - track:
             location: Red Hat OpenShift Track
-            title: TBA
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
+            title: "go-ns - Go's role in publishing data at the Office for National Statistics"
+            slug: eleanordeal
+            speaker: Eleanor Deal
+            handle: unoxymoronic
+            company: Methods
+            photo: https://secure.gravatar.com/avatar/61eccacafa0360478f69110292c438cf?s=500
             bio:  |
-                
-            level: 
+                Founder of the Cardiff Go meetup, and now Consulting as a Tech Lead at ONS, Eleanor represents Methods within the Welsh digital world. Eleanor manages teams working towards digital transformation in public services (and occasionally still gets to write some code!). In her spare time, Eleanor loves to take pictures of architecture around the world, and definitely not just her two cats.
+            level: All
             description: |
-                
+                ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
         - track:
             location: Glint Pay Track
             title: "Goroutines: the dark side of the runtime"
@@ -414,14 +400,14 @@
                 Have you ever wondered what really lies behind the "go" statement? Did you ever stop and think about differences between goroutines and standard operative system threads? Is there something you should know to avoid bugs or weird, unintended behaviours?
         - track:
             location: Smeaton Vaults
-            title: GoLand Tips & Tricks
+            title: Production Ready Go service in 30 minutes.
             slug: florinpatan
             speaker: Florin Pățan
             handle: dlsniper
             company: JetBrains
             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/3670/Florin_Original.jpg
             bio:  |
-                Florin has been a gopher for a few years now and has used go to do various things from simple toy apps to writing a startup based on it. He is the former co-organizer of Go London User Group, GDG Berlin Golang and AWS Berlin User Group. He helps gophers on Slack and is a Developer Advocate for GoLand IDE.
+                We always hear how Go is a simple language, how it can enable developers to be productive. In this talk, we'll start from scratch and develop a production-ready service in Go, using the standard library, a few popular libraries, instrument it, and deploy it using Docker.
             level: All
             description: |
                 This talk focuses on the productivity that GoLand can bring to a Go developer. We'll explore the ways the IDE adapts to your workflow, how it can help you detect and fix issues, integrate with other languages, all while keeping the same experience regardless of the platform you are working on.
